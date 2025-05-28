@@ -1,0 +1,12 @@
+#Folders
+Petalinux-Zynq.hw/
+Petalinux-Zynq.ip_user_files/
+Petalinux-Zynq.runs/
+Petalinux-Zynq.sim/
+Petalinux-Zynq.cache/
+Petalinux-Zynq.srcs/sources_1/bd/Zynq/*
+!Petalinux-Zynq.srcs/sources_1/bd/Zynq/*.bd
+!Petalinux-Zynq.srcs/sources_1/bd/Zynq/*_wrapper.vhd
+
+#Files
+Petalinux-Zynq.xpr
