@@ -133,7 +133,7 @@ sudo apt install zlib1g:i386
 
 Finally, with all the required packages installed, you can run the PetaLinux installer. Accept the license agreements and choose an installation directory - you can safely use `Petalinux/tools`.
 
-![Running installer](\.images\Installer.png)
+![Running installer](.images/Installer.png)
 
 After the installation, you may have noticed that a lot of files and folders were created. The most important one is `settings.sh`, which sets up the environment to use PetaLinux commands.
 
@@ -206,7 +206,7 @@ This will open a graphical configuration interface, where you can review and mod
 - Boot options
 - Kernel configurations
 
-![Hardware configuration](\.images\Hardware_config.png)
+![Hardware configuration](.images/Hardware_config.png)
 
 Navigate through the menu and select the option `Image Packaging Configuration`. Inside it, look for `Copy final images to tftpboot` option and disabled it by pressing `n`.
 
@@ -247,7 +247,7 @@ petalinux-config -c kernel
 
 After a few moments, another configuration interface will appear:
 
-![Kernel configuration](\.images\Kernel.png)
+![Kernel configuration](.images/Kernel.png)
 
 For this tutorial, we won't make any changes — but here you have access to a wide range of kernel customization options, such as:
 - ✅ Enable or disable specific drivers
@@ -274,7 +274,7 @@ petalinux-config -c u-boot
 
 After a few moments, another configuration menu will appear:
 
-![U-boot configuration](\.images\U-Boot.png)
+![U-boot configuration](.images/U-Boot.png)
 
 Here, you can configure several aspects of the boot process, such as:
 - 🌐 Environment variables
@@ -300,7 +300,7 @@ petalinux-config -c rootfs
 
 Shortly after, you should see the following interface:
 
-![Rootfs configuration](\.images\Rootfs.png)
+![Rootfs configuration](.images/Rootfs.png)
 
 For now, we will not make any changes. So, press `Exit` and then `Save` the configuration.
 
